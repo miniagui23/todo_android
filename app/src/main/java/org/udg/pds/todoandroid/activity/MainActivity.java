@@ -66,6 +66,8 @@ public class MainActivity extends AppCompatActivity implements Callback<User>, L
     ft.commit();
   }
 
+
+
   // This method is called when the "Login" button is pressed in the Login fragment
   public void checkCredentials(String username, String password) {
     UserLogin ul = new UserLogin();
