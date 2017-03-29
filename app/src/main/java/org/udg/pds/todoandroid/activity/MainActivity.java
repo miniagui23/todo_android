@@ -100,6 +100,7 @@ public class MainActivity extends AppCompatActivity implements Callback<User>, L
       }
     });
   }
+  
 
   @Override
   public void onResponse(Call<User> call, Response<User> response) {
